@@ -21,7 +21,7 @@ fetch('http://localhost:1337/status').then(res => res.json()).then(console.log)
 ```
 
 ```json
-{running: true}
+{"running": true}
 ```
 
 ## Get a list of printers
@@ -82,5 +82,5 @@ fetch(
 The body can be plaintext or html.
 
 ```json
-{success: "true"}
+{"success": "true"}
 ```
