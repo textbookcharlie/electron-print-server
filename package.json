@@ -1,0 +1,30 @@
+{
+  "name": "electron-print-server",
+  "version": "0.1.0",
+  "description": "An http print server written in electron to allow printing directly from the browser",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoolfamilymedia/electron-print-server.git"
+  },
+  "author": "Cody Patnaude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schoolfamilymedia/electron-print-server/issues"
+  },
+  "homepage": "https://github.com/schoolfamilymedia/electron-print-server#readme",
+  "devDependencies": {
+    "electron": "^3.0.13"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "rimraf": "^2.6.2",
+    "uuid": "^3.3.2"
+  }
+}
