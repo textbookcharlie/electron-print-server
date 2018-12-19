@@ -40,8 +40,6 @@ server.get("/printers", (req, res) => {
 server.post("/print", (req, res) => {
   const filepath = path.join(documentsDir, `${uuid()}.html`);
   const printerName = req.query.printerName;
-  console.log(printerName);
-  console.log(req.body);
   fs.writeFileSync(filepath, req.body);
 
   let labelWin = new BrowserWindow({
